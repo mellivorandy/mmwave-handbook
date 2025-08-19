@@ -1,0 +1,12 @@
+[book]
+authors = [
+    "An-I Yu <mellivorandy@gmail.com>"
+]
+description = "A general-purpose guide for mmWave radar applications."
+language = "en"
+# multilingual = true
+src = "src"
+title = "mmWave Handbook"
+edition = "2025"
+homepage = ""
+repository_url = "https://github.com/mellivorandy/mmwave-handbook"
