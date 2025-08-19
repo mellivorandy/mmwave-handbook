@@ -8,5 +8,10 @@ language = "en"
 src = "src"
 title = "mmWave Handbook"
 edition = "2025"
-homepage = ""
-repository_url = "https://github.com/mellivorandy/mmwave-handbook"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/mellivorandy/mmwave-handbook"
+git-repository-icon = "fa-github"
+site-url = "https://mellivorandy.github.io/mmwave-handbook/"
