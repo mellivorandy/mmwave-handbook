@@ -12,6 +12,31 @@ edition = "2025"
 [output.html]
 default-theme = "light"
 preferred-dark-theme = "navy"
+mathjax-support = true
 git-repository-url = "https://github.com/mellivorandy/mmwave-handbook"
 git-repository-icon = "fa-github"
+edit-url-template = "https://github.com/mellivorandy/mmwave-handbook/edit/main/{path}"
 site-url = "https://mellivorandy.github.io/mmwave-handbook/"
+
+[output.html.print]
+enable = true
+page-break = true
+
+[output.html.playground]
+editable = false
+copyable = true
+copy-js = true
+line-numbers = true
+runnable = true
+
+[output.html.search]
+enable = true
+limit-results = 50
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
