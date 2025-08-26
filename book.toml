@@ -17,6 +17,7 @@ git-repository-url = "https://github.com/mellivorandy/mmwave-handbook"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/mellivorandy/mmwave-handbook/edit/main/{path}"
 site-url = "https://mellivorandy.github.io/mmwave-handbook/"
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
 
 [output.html.print]
 enable = true
@@ -40,3 +41,8 @@ boost-paragraph = 1
 expand = true
 heading-split-level = 3
 copy-js = true
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
