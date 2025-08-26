@@ -72,7 +72,7 @@
    ```bash
    mdbook serve
    ```
-   後，開啟預設 http://localhost:3000，或直接開啟預覽：
+   後，開啟預設 [http://localhost:3000](http://localhost:3000)，或直接開啟預覽：
    ```bash
    mdbook serve --open
    ```
