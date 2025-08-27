@@ -39,12 +39,11 @@
 ## 專案架構
 
 - `src/`：主文檔內容（Markdown 格式）
-- `LICENSES`：
+- `LICENSES`：授權條款檔案
 - `book.toml`：mdBook 設定檔
 - `SUMMARY.md`：目錄結構
 - `assets/`：圖片、補充資料
 - `CONTRIBUTING.md`：貢獻指南
-- `ti_mmwave/`：德州儀器相關資源與章節
 
 <br>
 
@@ -80,9 +79,13 @@
 5. **提交 Pull Request**  
    - PR 請詳述修改內容
 
-   - Commit message 請遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hant/v1.0.0/) 格式 (請善用 Copilot :)
+   - Commit message 請遵循 [Conventional Commits](https://www.conventionalcommits.org/zh-hant/v1.0.0/) 格式 (請善用 Copilot :) <br>
+     
+     範例：  
+      - `docs(mmwave_basics): 解釋毫米波原理`  
+      - `docs(signal_processing): 新增訊號處理章節`
 
-   - 請確保本地編譯無誤（`mdbook build`）
+   - 請先確保本地編譯無誤（`mdbook build`）
 
 6. **等待審核與討論**  
    貢獻內容將由維護者審核，必要時協助修改、合併
