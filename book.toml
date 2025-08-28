@@ -16,7 +16,7 @@ mathjax-support = true
 git-repository-url = "https://github.com/mellivorandy/mmwave-handbook"
 git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/mellivorandy/mmwave-handbook/edit/main/{path}"
-site-url = "https://mellivorandy.github.io/mmwave-handbook/"
+site-url = "/mmwave-handbook/"
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
 
 [output.html.print]
