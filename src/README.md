@@ -62,7 +62,7 @@
 - 新增章節：同步更新 `SUMMARY.md` (已啟用 mdbook-toc 可略過此項)
 - 大規模結構調整：請先提出 Proposal（Issue 或 Discussion）
 
-關於更多參與及貢獻資訊，請參考 [CONTRIBUTING.md](https://github.com/mellivorandy/mmwave-handbook/CONTRIBUTING.md)
+關於更多參與及貢獻資訊，請參考 [CONTRIBUTING.md](https://github.com/mellivorandy/mmwave-handbook/blob/main/CONTRIBUTING.md)
 
 ## 免責聲明
 本手冊內容僅用於教育及研究參考，不保證適用於特定商業或安全關鍵場景。涉及第三方商標（如「Texas Instruments」）僅為描述用途，不代表任何官方。請遵守各 SDK / 文件授權、license，不複製大量原文。
