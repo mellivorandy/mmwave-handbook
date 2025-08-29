@@ -6,7 +6,7 @@
 
 - [毫米波基礎](fundamentals/mmwave_basics.md)
     - [硬體架構](fundamentals/hardware_architecture.md)
-    - [訊號處理](fundamentals/signal_processing.md)
+    - [訊號處理]()
     - [毫米波分類](fundamentals/mmwave_types.md)
     - [毫米波技術優勢與限制](fundamentals/mmwave_benefits.md)
 
