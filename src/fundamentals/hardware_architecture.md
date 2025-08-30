@@ -16,7 +16,7 @@
 
 <br>
 
-由於我們最感興趣的是這兩個訊號的頻率差 Δf（也稱為 中頻訊號 Intermediate Frequency（IF）Signal）。因此，我們接著利用 LPF（低通濾波器 Low Pass Filter），將 Mixer 輸出中的高頻（和頻）濾除，消除雜訊並分離出有用的距離/速度資訊。
+由於我們最感興趣的是這兩個訊號的頻率差 Δf（也稱為 中頻訊號 Intermediate Frequency（IF）Signal）。因此，我們接著利用低通濾波器（Low Pass Filter, LPF），將 Mixer 輸出中的高頻（和頻）濾除，消除雜訊並分離出有用的距離/速度資訊。
 
 <br>
 
