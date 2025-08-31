@@ -19,6 +19,7 @@
     - [常用演算法](ti_mmwave/algorithms.md)
 - [疑難排解](troubleshooting/overview.md)
     - [gmake 找不到檔案錯誤](troubleshooting/gmake.md)
+    - [gmake 編譯失敗](troubleshooting/gmake_tiarmclang.md)
 
 # 附錄
 
