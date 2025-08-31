@@ -17,10 +17,11 @@
     - [系統架構總覽](ti_mmwave/architecture.md)
     - [安裝與建置](ti_mmwave/setup.md)
     - [常用演算法](ti_mmwave/algorithms.md)
-    - [除錯與常見錯誤](ti_mmwave/troubleshooting.md)
+- [疑難排解](troubleshooting/overview.md)
+    - [gmake 找不到檔案錯誤](troubleshooting/gmake.md)
 
 # 附錄
 
 - [附錄彙整](appendix/index.md)
-    - [附錄 A](appendix/a.md)
-    - [附錄 B](appendix/b.md)
+    - [附錄 A]()
+    - [附錄 B]()
