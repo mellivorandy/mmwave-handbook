@@ -23,4 +23,14 @@ gmake: *** [clean] Error 2
 > imports.mak 這個檔案是 TI mmWave SDK 專案建置流程中的環境設定檔，用來集中管理編譯所需的工具鏈與外部套件路徑。內容通常包含了編譯器（ti-arm-clang）、mmWave SDK 等安裝位置。當 Makefile 執行時，會先讀取 imports.mak 中的這些變數設定，確保編譯器與相關函式庫能正確找到來源與標頭檔。
 
 ## 解決方法
-打開 imports.mak，用 `Ctrl + F` 找到所有 CCS_PATH?=$(TOOLS_PATH)/ccs1271/ccs（有兩個），改成你的 ccs 版本（舉例：我的 ccs 版本為 `20.1.0` → 改成 CCS_PATH?=$(TOOLS_PATH)/ccs2010/ccs）。改完後儲存，gmake 就可以正常運作了。
+打開 imports.mak，用 `Ctrl + F` 找到所有 CCS_PATH?=$(TOOLS_PATH)/ccs1271/ccs（有兩個），改成你的 ccs 版本。
+
+<br>
+
+舉例，我的 ccs 版本為 `20.1.0` → 改成：
+
+```bash
+CCS_PATH?=$(TOOLS_PATH)/ccs2010/ccs
+```
+
+改完後儲存，gmake 就可以正常運作了。
