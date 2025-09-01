@@ -31,10 +31,11 @@
 ## 手冊結構
 | 區塊 | 內容焦點 | 對應章節 |
 |------|----------|----------------|
-| 基礎 | 毫米波介紹 | [毫米波基礎](./mmwave_basics.md) |
-| 硬體 | 天線陣列、前端、chirp | [硬體架構](./hardware_arch.md) |
-| 訊號處理 | ADC → Range FFT → Doppler FFT → Angle → CFAR | [訊號處理](./signal_processing.md) |
-| 應用 | 人員計數、手勢、生命跡象 | [應用場景與案例](./mmwave_applications.md) |
+| 基礎 | 毫米波介紹 | [毫米波基礎](./fundamentals/mmwave_basics.md) |
+| 硬體 | 天線陣列、前端、chirp | [硬體架構](./fundamentals/hardware_architecture.md) |
+| 訊號處理 | ADC → Range FFT → Doppler FFT → Angle → CFAR | [訊號處理](./fundamentals/signal_processing.md) |
+| 分類與應用場景 | 各場景下設計需求與挑戰 | [分類與應用場景](./fundamentals/mmwave_types.md) |
+| 技術優勢與限制 | 適用場景 | [技術優勢與限制](./fundamentals/mmwave_benefits.md) |
 | TI 生態 | SDK、Toolchain、範例與調試 | [TI mmWave](ti_mmwave/overview.md) |
 | 演算法 | CFAR / AoA / Clustering / Tracking / Feature | [常用演算法](./ti/algorithms.md) |
 | 附錄 | 公式、符號、測量實務、FAQ | [附錄](appendix/index.md) |
