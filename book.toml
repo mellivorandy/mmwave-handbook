@@ -46,6 +46,9 @@ copy-js = true
 enable = true
 level = 1
 
+[build]
+extra-watch-dirs = ["static"]
+
 [preprocessor]
 
 [preprocessor.mermaid]
