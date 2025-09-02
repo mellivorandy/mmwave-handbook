@@ -18,6 +18,9 @@ git-repository-icon = "fa-github"
 edit-url-template = "https://github.com/mellivorandy/mmwave-handbook/edit/main/{path}"
 site-url = "/mmwave-handbook/"
 additional-js = ["mermaid.min.js", "mermaid-init.js"]
+additional-html-in-head = '''
+<meta name="google-site-verification" content="9ONPP-flKrLEFZT4vLcCFgmYIL_5V0XnBjJk3RAcBD0" />
+'''
 
 [output.html.print]
 enable = true
@@ -45,9 +48,6 @@ copy-js = true
 [output.html.fold]
 enable = true
 level = 1
-
-[build]
-extra-watch-dirs = ["static"]
 
 [preprocessor]
 
