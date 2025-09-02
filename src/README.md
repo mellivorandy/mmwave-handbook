@@ -1,5 +1,3 @@
-<meta name="google-site-verification" content="9ONPP-flKrLEFZT4vLcCFgmYIL_5V0XnBjJk3RAcBD0" />
-
 # 前言
 
 > 本手冊（mmWave Handbook）旨在整合並系統化記錄本團隊在毫米波雷達上的開發與實務經驗，以「系統化學習」的方式，幫助讀者在短時間內掌握毫米波雷達的核心概念、訊號處理、演算法與設計實作。此外，本手冊亦作為共享知識庫、加速毫米波雷達應用開發效率的開放資源，避免重複踩雷，並促進知識長期共享。
